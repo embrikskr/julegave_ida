@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    color: #b30000;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: #000000;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+p {
+    color: #000000;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: #000;
+}
+
+#gave-container {
+    margin-top: 40px;
+}
+
+#gave-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Enkel tilpasning for veldig små skjermer (f.eks. iPhone SE/8/11) */
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 10px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
